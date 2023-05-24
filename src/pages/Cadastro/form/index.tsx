@@ -14,33 +14,33 @@ export function Form() {
                         <h1>Cadastro</h1>
                     </div>
                     <div className="login-button">
-                        <button>  <a href="#">Entrar</a></button>
+                        <button> <a href="#">Entrar</a></button>
                     </div>
                 </div>
                 <div className="input-group">
                     <div className="input-box">
                         <label htmlFor="firstname">Primeiro nome</label>
-                        <input type="text" id="firstname" required placeholder="Digite seu primeiro nome" />
+                        <input type="text" id="firstname"   placeholder="Digite seu primeiro nome" />
                     </div>
                     <div className="input-box">
                         <label htmlFor="lastname">Sobre nome</label>
-                        <input type="text" id="lastname" required placeholder="Digite seu segundo nome" />
+                        <input type="text" id="lastname"   placeholder="Digite seu segundo nome" />
                     </div>
                     <div className="input-box">
                         <label htmlFor="email">Seu email</label>
-                        <input type="email" id="email" required placeholder="Digite seu e-mail" />
+                        <input type="email" id="email"   placeholder="Digite seu e-mail" />
                     </div>
                     <div className="input-box">
                         <label htmlFor="number">Seu telefone</label>
-                        <input type="tel" id="number" required placeholder="(xx) x xxxx-xxxx" />
+                        <input type="tel" id="number"   placeholder="(xx) x xxxx-xxxx" />
                     </div>
                     <div className="input-box">
                         <label htmlFor="password">Criar senha</label>
-                        <input type="password" id="password" required placeholder="********************" />
+                        <input type="password" id="password"   placeholder="********************" />
                     </div>
                     <div className="input-box">
                         <label htmlFor="password-confirme">Confirmar senha</label>
-                        <input type="password" id="password-confirme" required placeholder="********************" />
+                        <input type="password" id="password-confirme"   placeholder="********************" />
                     </div>
                 </div>
 

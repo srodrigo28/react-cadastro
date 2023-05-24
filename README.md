@@ -1,4 +1,7 @@
 ### Front End React vite
+```sh
+https://www.youtube.com/watch?v=GykTLqODQuU&t=1481s
+```
 * Criando projeto
     ```sh
     npm create vite@latest
