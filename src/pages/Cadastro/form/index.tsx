@@ -42,6 +42,7 @@ export function Form() {
                         <input type="password" id="password-confirme" required placeholder="********************" />
                     </div>
                 </div>
+
                 <div className="gender-inputs">
                     <div className="gender-title">
                         <h6>Gênero</h6>
@@ -68,6 +69,7 @@ export function Form() {
                 <div className="continue-button">
                     <button> <a href="#"> Continuar </a> </button>
                 </div>
+                
             </form>
         </Container>
     )
