@@ -1,12 +1,13 @@
-import { Container } from "./style";
+import { Container, ContainerImage } from "./style";
 import ImgBack from './../../../assets/image-back.svg'
 
 export function Form() {
     return (
         <Container>
-            <div className="box-img">
+            <ContainerImage>
                 <img src={ImgBack} alt="back-fundo" />
-            </div>
+            </ContainerImage>
+            
             <form>
                 <div className="form-header">
                     <div className="title">

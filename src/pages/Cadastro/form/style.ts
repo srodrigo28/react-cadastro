@@ -1,4 +1,32 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const animateX1 = keyframes`
+    0%{
+        transform: translateX(-900px);
+        opacity: 0;
+    }
+    50%{
+        opacity: .3;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+`;
+
+const animateX2 = keyframes`
+    0%{
+        transform: translateX(900px);
+        opacity: 0;
+    }
+    50%{
+        opacity: .3;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+`;
 
 export const Container = styled.div`
 /** Comensando estilizar form 12:52 / 21:49 */
@@ -7,6 +35,9 @@ export const Container = styled.div`
         justify-content: center;
         align-items: center;
     form{
+
+        animation: ${animateX1} 4.00s;
+
         width: 50%;
         height: 79vh;
         display: flex;
@@ -83,22 +114,14 @@ export const Container = styled.div`
     }
        
     }
-    .box-img{
-        width: 50%;
-        display: flex;
-        padding: 1rem;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--background-2);
-    }
-
     .gender-inputs{
         width: 90%;
         display: flex;
         flex-direction: column;
+        margin-top: 70px;
 
         > .gender-title {
-            font-size: 1.7em;
+            font-size: 2.1em;
             text-align: center;
         }
 
@@ -111,8 +134,11 @@ export const Container = styled.div`
                 margin-left: 5px;
                 font-weight: bold;
             }
+
+            margin-bottom: 50px;
             
         }
+        
     }
     .continue-button{
         width: 80%;
@@ -140,19 +166,15 @@ export const Container = styled.div`
         }
     }
 `
-export const ContainerImagem = styled.div`
+export const ContainerImage = styled.div`
+
+    animation: ${animateX2} 4s;
+
     width: 50%;
     display: flex;
     padding: 1rem;
     align-items: center;
     justify-content: center;
-    background-color: var(--background-2);
-
-    > img{
-        width: 34em;
-        padding: 25px;
-        margin-top: 250px;
-    }
-`
+`;
 
 // Points 1900
