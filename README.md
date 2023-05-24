@@ -11,3 +11,12 @@
     ```sh
     npm run dev
     ```
+* Styled-Components
+    ```sh
+    npm install --save styled-components@latest
+    ```
+    ```sh
+    npm install --save @types/styled-components
+    ```
+
+    
